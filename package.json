@@ -1,0 +1,25 @@
+{
+  "name": "discord-nitro",
+  "version": "1.0.4",
+  "description": "Will generate unchecked discord nitro codes at a rate of 100,000 codes per second",
+  "main": "server.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "keywords": [
+    "node",
+    "npm",
+    "discord",
+    "nitro",
+    "fun",
+    "discord-nitro",
+    "easy",
+    "helpful",
+    "utility",
+    "free",
+    "codes"
+  ],
+  "author": "Finn Scully",
+  "license": "MIT",
+  "homepage": "https://github.com/uhFinn/discord-nitro"
+}
