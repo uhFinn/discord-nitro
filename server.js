@@ -6,8 +6,8 @@ let list = []
 
 console.log((input / 100) / 1000 + " seconds remaining")
 
-if(input <= 0) return console.log("Input must be greater than 0")
-//if(input > 1000) return console.log("Input can not be greater that 1,000 at a time")
+if(input <= 0) return "Input must be greater than 0"
+if(input > 1000000) return "Currently inputs may not be greater than 1,000,000 at a time"
 var i  
 for(i = 0; i < input; i++){
     var e 
@@ -23,9 +23,5 @@ for(i = 0; i < input; i++){
 }
 
 setTimeout(function(){
-    console.log(list);
-    let writelist = list.join('\n');
-    fs.writeFile('./codedump.txt', writelist, function (err) {
-        if (err) return console.log(err);
-    });
+    return list
 }, input / 100);
