@@ -5,10 +5,16 @@ module.exports = (int) => {
     let code = ""
     let list = []
 
-    console.log((input / 100) / 1000 + " seconds remaining")
+    let remaintime = (input / 1000) / 1000
 
-    if(input <= 0) return "Input must be greater than 0"
-    if(input > 1000000) return "Currently inputs may not be greater than 1,000,000 at a time"
+    if(input <= 0){
+        console.log(`DiscordNitro >  Input must be greater than 0, your input was: ${int}`)
+        return [`DiscordNitro >  Input must be greater than 0, your input was: ${int}`]
+    }
+    if(input > 1000000){
+        console.log(`Currently inputs may not be greater than 1,000,000 codes at a time, You tried to generate ${int} codes\nThe code limit will be increased in future updates!`)
+        return ["Currently inputs may not be greater than 1,000,000 codes at a time"]
+    }
     var i  
     for(i = 0; i < input; i++){
         var e 
@@ -21,9 +27,8 @@ module.exports = (int) => {
                 code = ""
             }
         }
+        if(i == input - 1){
+            return list
+        }
     }
-
-    setTimeout(function(){
-        return list
-    }, input / 100);
 }
