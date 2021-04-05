@@ -1,7 +1,7 @@
 {
-  "name": "discord-nitro",
-  "version": "1.0.0",
-  "description": "Will generate unchecked discord nitro codes at a rate of 100,000 codes per second",
+  "name": "discordnitro",
+  "version": "0.1.4",
+  "description": "Will generate unchecked discord nitro codes at a rate of 1,000,000 codes per second",
   "main": "server.js",
   "scripts": {
     "test": "echo \"Error: no test specified\" && exit 1",
