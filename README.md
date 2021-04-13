@@ -1,5 +1,3 @@
-[![N|Solid](https://cdn.discordapp.com/attachments/766720740677517332/787039404727599184/twitch-follow-us-on-twitch-BG_1.png)](https://twitch.tv/uhFinn)
-
 # discordnitro
 **_This NPM package generates unchecked discord nitro codes for you!_**
 
