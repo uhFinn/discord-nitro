@@ -1,6 +1,6 @@
 {
   "name": "discordnitro",
-  "version": "0.1.4",
+  "version": "0.1.5",
   "description": "Will generate unchecked discord nitro codes at a rate of 1,000,000 codes per second",
   "main": "server.js",
   "scripts": {
